@@ -8,5 +8,5 @@ then agin run python3 speed.py .
 # 2 nd Updated way
 # use : pip install -U cf-speedtest
 # then : nano proxy 
-# then : while read ip;do cf_speedtest --proxy http://"$ip";done < proxy | tee result
+# then : while read ip;do cf_speedtest --proxy http://"$ip";done < proxy | tee -a result
 # Watch 2nd Way video added in the file
